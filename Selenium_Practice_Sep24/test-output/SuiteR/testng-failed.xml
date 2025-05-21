@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [SuiteR]">
+  <parameter name="Season" value="Currently"/>
+  <test parallel="none" name="TestR(failed)">
+    <parameter name="Season" value="Currently"/>
+    <groups>
+      <run>
+        <exclude name="G1"/>
+        <exclude name="G2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNG.Rough_work">
+        <methods>
+          <include name="timeEnd"/>
+          <include name="Ball"/>
+          <include name="timeC"/>
+          <include name="Cat"/>
+        </methods>
+      </class> <!-- TestNG.Rough_work -->
+    </classes>
+  </test> <!-- TestR(failed) -->
+</suite> <!-- Failed suite [SuiteR] -->

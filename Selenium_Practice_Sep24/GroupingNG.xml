@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Grouping suite">
+<test name = "Grouping test">
+<groups>
+<run>
+<include name = "Apple"></include>
+<include name = "Redmi"></include>
+<exclude name = "Sam"></exclude>
+</run>
+</groups>
+
+<classes>
+<class name = "TestNG.Grouping_TestNG_04"> </class>
+</classes>
+</test>
+</suite>

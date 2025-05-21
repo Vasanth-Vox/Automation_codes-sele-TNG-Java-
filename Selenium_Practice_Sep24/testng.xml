@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteR">
+  <test thread-count="5" name="TestR">
+   <parameter name = "Season" value = "Currently"></parameter>
+   <parameter name = "Season1" value = "Currently2"></parameter>
+   <parameter name = "Season2" value = "Currently3"></parameter>
+ <groups>
+ <run>
+ <exclude name = "G1"></exclude>
+ <exclude name = "G2"></exclude>
+ </run>
+ </groups>
+
+    <classes>
+      <class name="TestNG.Rough_work"/>
+    </classes>
+  </test> <!-- TestR -->
+</suite> <!-- SuiteR -->
+
